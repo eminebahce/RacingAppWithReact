@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import axios from 'axios';
 import {Button, Card, CardBody, CardImg, CardSubtitle, CardText, CardTitle, Col, Row} from 'reactstrap';
+import GameSchedule from './GameSchedule';
 
 const PRODUCTS_URL = `https://www.atg.se/services/racinginfo/v1/api/products/`;
 
@@ -12,6 +13,7 @@ class GameSearch extends Component {
             upcoming: [],
             results: []
         });
+        this.gameSearchByType = this.gameSearchByType.bind(this);
     }
 
     gameSearchByType(gameType) {
@@ -96,13 +98,12 @@ class GameSearch extends Component {
                 </Row>
                 <Row className="formatCardClass1">
                     <Col sm="12">
-
+                        <GameSchedule games={this.state.results}/>
                     </Col>
                 </Row>
             </div>
         );
     }
-
 }
 
 export default GameSearch;
