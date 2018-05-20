@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {ListGroup, ListGroupItem, Badge, Row, Col} from 'reactstrap';
+import {ListGroup, ListGroupItem, Badge, Row, Col, Button, ButtonGroup} from 'reactstrap';
 import RaceDetail from './RaceDetail';
 
 class RaceSelect extends Component {
@@ -29,23 +29,25 @@ class RaceSelect extends Component {
         if (this.props.races !== undefined && this.props.races.length !== 0) {
             raceNumbers = this.props.races.map((race) => {
                 return (
-                    <ListGroupItem className="pointer" onClick={() => {
+                    <Button onClick={() => {
                         this.selectRace(race)
-                    }} key={race.id} action>
-                        Race Number: <Badge pill>{race.number}</Badge>
-                    </ListGroupItem>
+                    }} id={race.id}>
+                        Race Number: {race.number}
+                    </Button>
                 );
             });
         }
         return (
             <div className="formatCardClass2">
                 <Row>
-                    <Col sm="2">
-                        <ListGroup>
+                    <Col sm="12">
+                        <ButtonGroup>
                             {raceNumbers}
-                        </ListGroup>
+                        </ButtonGroup>
                     </Col>
-                    <Col sm="10">
+                </Row>
+                <Row className="formatCardClass2">
+                    <Col sm="12">
                         <RaceDetail race={this.state.race}/>
                     </Col>
                 </Row>
