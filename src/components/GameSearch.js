@@ -10,8 +10,7 @@ class GameSearch extends Component {
         super(props);
 
         this.state = ({
-            upcoming: [],
-            results: []
+            games: []
         });
         this.gameSearchByType = this.gameSearchByType.bind(this);
     }
@@ -20,10 +19,15 @@ class GameSearch extends Component {
         const url = `${PRODUCTS_URL}${gameType}`;
         axios.get(url)
             .then(res => {
-                this.setState({
-                    upcoming: res.data.upcoming,
-                    results: res.data.results
-                });
+                if (res.data.upcoming === undefined ||res.data.upcoming === null ) {
+                    this.setState({
+                        games: res.data.results
+                    });
+                } else {
+                    this.setState({
+                        games: res.data.upcoming,
+                    });
+                }
             });
     }
 
@@ -98,7 +102,7 @@ class GameSearch extends Component {
                 </Row>
                 <Row className="formatCardClass1">
                     <Col sm="12">
-                        <GameSchedule games={this.state.results}/>
+                        <GameSchedule games={this.state.games}/>
                     </Col>
                 </Row>
             </div>
