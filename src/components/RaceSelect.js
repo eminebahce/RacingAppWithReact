@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {ListGroup, ListGroupItem, Badge, Row, Col} from 'reactstrap';
+import RaceDetail from './RaceDetail';
 
 class RaceSelect extends Component {
     constructor(props) {
@@ -31,7 +32,7 @@ class RaceSelect extends Component {
                     <ListGroupItem className="pointer" onClick={() => {
                         this.selectRace(race)
                     }} key={race.id} action>
-                        Race #: <Badge pill>{race.number}</Badge>
+                        Race Number: <Badge pill>{race.number}</Badge>
                     </ListGroupItem>
                 );
             });
@@ -44,7 +45,9 @@ class RaceSelect extends Component {
                             {raceNumbers}
                         </ListGroup>
                     </Col>
-                    <Col sm="10"></Col>
+                    <Col sm="10">
+                        <RaceDetail race={this.state.race}/>
+                    </Col>
                 </Row>
             </div>
         );

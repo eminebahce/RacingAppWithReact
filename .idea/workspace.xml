@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84da1a5-9492-4478-beb8-6898ceb7ed7e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/RaceSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RaceDetail.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GameSchedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameSchedule.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RaceSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RaceSelect.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameSearch.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="GameSearch.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/GameSearch.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="550">
-              <caret line="100" column="63" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
+              <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -39,14 +39,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RaceSelect.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RaceSelect.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/RaceSelect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+            <state relative-caret-position="374">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaceDetail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RaceDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -71,6 +80,7 @@
         <option value="$PROJECT_DIR$/src/components/GameSearch.js" />
         <option value="$PROJECT_DIR$/src/components/GameSchedule.js" />
         <option value="$PROJECT_DIR$/src/components/RaceSelect.js" />
+        <option value="$PROJECT_DIR$/src/components/RaceDetail.js" />
       </list>
     </option>
   </component>
@@ -197,16 +207,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526840202040</updated>
-      <workItem from="1526840210187" duration="5981000" />
+      <workItem from="1526840210187" duration="8486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5292000" />
+    <option name="totallyTimeSpent" value="7797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -222,7 +231,7 @@
       <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.24606061" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2067239" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20457797" />
       <window_info anchor="right" id="Database" />
       <window_info id="Learn" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -309,16 +318,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GameSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="100" column="63" selection-start-line="100" selection-start-column="63" selection-end-line="100" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/GameSchedule.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
@@ -329,10 +328,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RaceDetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RaceSelect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+        <state relative-caret-position="374">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GameSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="100" column="55" selection-start-line="100" selection-start-column="55" selection-end-line="100" selection-end-column="55" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
