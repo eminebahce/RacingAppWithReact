@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {ListGroup, ListGroupItem, Badge, Row, Col, Button, ButtonGroup} from 'reactstrap';
+import {Row, Col, Button, ButtonGroup} from 'reactstrap';
 import RaceDetail from './RaceDetail';
 
 class RaceSelect extends Component {
@@ -41,9 +41,13 @@ class RaceSelect extends Component {
             <div className="formatCardClass2">
                 <Row>
                     <Col sm="12">
-                        <ButtonGroup>
-                            {raceNumbers}
-                        </ButtonGroup>
+                        <div className="text-center">
+                            <div className="btn-group">
+                                <ButtonGroup>
+                                    {raceNumbers}
+                                </ButtonGroup>
+                            </div>
+                        </div>
                     </Col>
                 </Row>
                 <Row className="formatCardClass2">

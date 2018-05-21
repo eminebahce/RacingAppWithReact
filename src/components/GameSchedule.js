@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import {ListGroup, ListGroupItem, Badge} from 'reactstrap';
+import {Table} from 'reactstrap';
 import Moment from 'react-moment';
 import RaceSelect from './RaceSelect';
 
@@ -35,21 +35,38 @@ class GameSchedule extends Component {
     }
 
     render() {
-        const gameListItems = this.props.games.map((game) => {
-            return (
-                <ListGroupItem className="pointer" onClick={() => {
-                    this.gameInfoSearch(game.id)
-                }} key={game.id} action>
-                    <Badge pill><Moment>{game.startTime}</Moment></Badge> {game.id}
-                </ListGroupItem>
+        let gameList = '';
+        if (Object.keys(this.props.games).length !== 0) {
+            const gameListItems = this.props.games.map((game) => {
+                return (
+                    <tr className="pointer" onClick={() => {
+                        this.gameInfoSearch(game.id)
+                    }} key={game.id}>
+                        <td><Moment>{game.startTime}</Moment></td>
+                        <td>{game.id}</td>
+                    </tr>
+                );
+            });
+
+            gameList = (
+                <Table hover>
+                    <thead>
+                    <tr>
+                        <th>Game Date</th>
+                        <th>Game Identifier</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {gameListItems}
+                    </tbody>
+
+                </Table>
             );
-        });
+        }
         return (
             <div>
                 <div>
-                    <ListGroup>
-                        {gameListItems}
-                    </ListGroup>
+                    {gameList}
                 </div>
                 <div>
                     <RaceSelect races={this.state.races}/>
