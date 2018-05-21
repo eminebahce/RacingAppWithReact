@@ -10,3 +10,12 @@
 .pointer {
     cursor: pointer;
 }
+
+.tableRowAlign{
+    text-align: center;
+}
+
+.tableRowAlign2{
+    text-align: center;
+    width: 50%;
+}

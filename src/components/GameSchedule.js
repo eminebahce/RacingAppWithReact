@@ -42,8 +42,8 @@ class GameSchedule extends Component {
                     <tr className="pointer" onClick={() => {
                         this.gameInfoSearch(game.id)
                     }} key={game.id}>
-                        <td><Moment>{game.startTime}</Moment></td>
-                        <td>{game.id}</td>
+                        <td className="tableRowAlign2"><Moment>{game.startTime}</Moment></td>
+                        <td className="tableRowAlign2">{game.id}</td>
                     </tr>
                 );
             });
@@ -52,8 +52,13 @@ class GameSchedule extends Component {
                 <Table hover>
                     <thead>
                     <tr>
-                        <th>Game Date</th>
-                        <th>Game Identifier</th>
+                        <th colSpan="2" className="tableRowAlign">
+                            Game Schedule Table
+                        </th>
+                    </tr>
+                    <tr>
+                        <th className="tableRowAlign2">Game Date</th>
+                        <th className="tableRowAlign2">Game Identifier</th>
                     </tr>
                     </thead>
                     <tbody>

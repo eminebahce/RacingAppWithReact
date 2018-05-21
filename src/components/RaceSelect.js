@@ -29,7 +29,7 @@ class RaceSelect extends Component {
         if (this.props.races !== undefined && this.props.races.length !== 0) {
             raceNumbers = this.props.races.map((race) => {
                 return (
-                    <Button onClick={() => {
+                    <Button color="success" onClick={() => {
                         this.selectRace(race)
                     }} id={race.id}>
                         Race Number: {race.number}

@@ -40,12 +40,12 @@ class RaceDetail extends Component {
                         <td>{start.driver.firstName} {start.driver.lastName}</td>
                         <td>
                             <div>
-                                <Button id={buttonId} onClick={() => this.toggle(buttonId)}>
+                                <Button color="info" id={buttonId} onClick={() => this.toggle(buttonId)}>
                                     +
                                 </Button>
                                 <Popover placement="bottom" isOpen={this.state[buttonId]} target={buttonId}
                                          toggle={() => this.toggle(buttonId)}>
-                                    <PopoverHeader>More Information</PopoverHeader>
+                                    <PopoverHeader>Information</PopoverHeader>
                                     <PopoverBody>
                                         <div>
                                             Trainer: {start.horse.trainer.firstName} {start.horse.trainer.lastName}
@@ -62,15 +62,19 @@ class RaceDetail extends Component {
             });
             raceData = (
                 <div>
-                    <Badge
-                        pill>{this.props.race.number}</Badge> : <strong>{this.props.race.name}</strong> : <Moment>{this.props.race.startTime}</Moment>
                     <Table size="sm" striped responsive>
                         <thead>
+                        <tr>
+                            <th colSpan="4" className="tableRowAlign">
+                                <Badge color="success"
+                                    pill>{this.props.race.number}</Badge> : {this.props.race.name} : <Moment>{this.props.race.startTime}</Moment>
+                            </th>
+                        </tr>
                         <tr>
                             <th>Start #</th>
                             <th>Horse Name</th>
                             <th>Driver</th>
-                            <th></th>
+                            <th>Info</th>
                         </tr>
                         </thead>
                         <tbody>
