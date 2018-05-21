@@ -49,11 +49,11 @@ class GameSchedule extends Component {
             });
 
             gameList = (
-                <Table hover>
+                <Table striped>
                     <thead>
                     <tr>
                         <th colSpan="2" className="tableRowAlign">
-                            Game Schedule Table
+                            Game Schedule
                         </th>
                     </tr>
                     <tr>

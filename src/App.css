@@ -1,10 +1,14 @@
 .formatCardClass1 {
     padding: 0 3em 1em;
-    margin: 1.5rem 0 0;
+    margin: 1rem 0 0;
 }
 
 .formatCardClass2 {
-    padding-top: 2.5em;
+    padding-top: 1.5em;
+}
+
+.formatCardClass3 {
+    padding-top: 2em;
 }
 
 .pointer {

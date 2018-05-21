@@ -50,7 +50,7 @@ class RaceSelect extends Component {
                         </div>
                     </Col>
                 </Row>
-                <Row className="formatCardClass2">
+                <Row className="formatCardClass3">
                     <Col sm="12">
                         <RaceDetail race={this.state.race}/>
                     </Col>
