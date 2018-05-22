@@ -49,7 +49,7 @@ class GameSchedule extends Component {
             });
 
             gameList = (
-                <Table striped>
+                <Table size="sm" striped>
                     <thead>
                     <tr>
                         <th colSpan="2" className="tableRowAlign">

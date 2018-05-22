@@ -2,17 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c84da1a5-9492-4478-beb8-6898ceb7ed7e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tests/GameSchedule.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/GameSearch.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/RaceDetail.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tests/RaceSelect.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/GameSchedule.snapshot.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/GameSearch.snapshot.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/RaceDetail.snapshot.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tests/RaceSelect.snapshot.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/GameSchedule.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GameSchedule.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/RaceDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RaceDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RaceSelect.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RaceSelect.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/GameSchedule.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/GameSchedule.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/GameSearch.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/GameSearch.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/RaceDetail.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/RaceDetail.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/RaceSelect.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/RaceSelect.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/__snapshots__/GameSchedule.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/__snapshots__/GameSearch.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/__snapshots__/RaceDetail.test.js.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/__snapshots__/RaceSelect.test.js.snap" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,7 +28,59 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaceDetail.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RaceDetail.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="268">
+              <caret line="76" column="114" selection-start-line="76" selection-start-column="114" selection-end-line="76" selection-end-column="114" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameSchedule.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/GameSchedule.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaceSelect.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RaceSelect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaceDetail.snapshot.test.js.snap" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/__snapshots__/RaceDetail.snapshot.test.js.snap">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="60" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +97,8 @@
       <find>GameSchedule</find>
       <find>RaceSelect</find>
       <find>id</find>
+      <find>&lt;h5</find>
+      <find>1</find>
     </findStrings>
     <replaceStrings>
       <replace>RaceSelect</replace>
@@ -53,15 +113,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/GameSearch.js" />
-        <option value="$PROJECT_DIR$/src/components/GameSchedule.js" />
         <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/components/RaceSelect.js" />
+        <option value="$PROJECT_DIR$/src/tests/GameSearch.snapshot.test.js" />
+        <option value="$PROJECT_DIR$/src/components/GameSearch.js" />
         <option value="$PROJECT_DIR$/src/tests/GameSearch.test.js" />
         <option value="$PROJECT_DIR$/src/tests/GameSchedule.test.js" />
         <option value="$PROJECT_DIR$/src/tests/RaceSelect.test.js" />
-        <option value="$PROJECT_DIR$/src/components/RaceSelect.js" />
-        <option value="$PROJECT_DIR$/src/tests/RaceDetail.test.js" />
         <option value="$PROJECT_DIR$/src/components/RaceDetail.js" />
+        <option value="$PROJECT_DIR$/src/tests/RaceDetail.test.js" />
+        <option value="$PROJECT_DIR$/src/components/GameSchedule.js" />
       </list>
     </option>
   </component>
@@ -79,11 +140,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="40" />
-    <option name="y" value="23" />
-    <option name="width" value="1400" />
-    <option name="height" value="877" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -142,10 +201,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tests" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/tests" />
     </key>
   </component>
@@ -161,7 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Jest.&lt;GameSchedule /&gt;">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -180,6 +239,28 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="&lt;GameSchedule /&gt;" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/GameSchedule.test.js" />
+      <test-names>
+        <test-name value="&lt;GameSchedule /&gt;" />
+      </test-names>
+    </configuration>
+    <configuration name="&lt;GameSearch /&gt;" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/tests/GameSearch.test.js" />
+      <test-names>
+        <test-name value="&lt;GameSearch /&gt;" />
+      </test-names>
     </configuration>
     <configuration name="renders without crashing" type="JavaScriptTestRunnerJest" factoryName="Jest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -214,8 +295,15 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="Jest.renders without crashing" />
+      <item itemvalue="Jest.&lt;GameSearch /&gt;" />
+      <item itemvalue="Jest.&lt;GameSchedule /&gt;" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.&lt;GameSchedule /&gt;" />
+        <item itemvalue="Jest.&lt;GameSearch /&gt;" />
         <item itemvalue="Jest.renders without crashing" />
       </list>
     </recent_temporary>
@@ -231,7 +319,7 @@
       <option name="presentableId" value="Default" />
       <updated>1526840202040</updated>
       <workItem from="1526840210187" duration="22043000" />
-      <workItem from="1527003993652" duration="3227000" />
+      <workItem from="1527003993652" duration="10150000" />
     </task>
     <servers />
   </component>
@@ -239,12 +327,19 @@
     <history-entry file="renders_without_crashing - 2018.05.21 at 23h 19m 52s.xml">
       <configuration name="renders without crashing" configurationId="JavaScriptTestRunnerJest" />
     </history-entry>
+    <history-entry file="_GameSearch___ - 2018.05.22 at 21h 36m 24s.xml">
+      <configuration name="&lt;GameSearch /&gt;" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
+    <history-entry file="_GameSchedule___ - 2018.05.22 at 22h 36m 54s.xml">
+      <configuration name="&lt;GameSchedule /&gt;" configurationId="JavaScriptTestRunnerJest" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24581000" />
+    <option name="totallyTimeSpent" value="31504000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="877" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -254,12 +349,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32948717" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32848486" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.55" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.28242424" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19734904" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21888413" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Learn" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,10 +410,13 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tests/RaceDetail.test.js">
+    <entry file="file://$PROJECT_DIR$/src/tests/RaceDetail.snapshot.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -335,9 +433,6 @@
           <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -362,77 +457,10 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/__snapshots__/GameSearch.test.js.snap">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/GameSearch.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/GameSchedule.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RaceSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GameSchedule.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="38" column="16" selection-start-line="38" selection-end-line="39" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/GameSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1193">
-          <caret line="27" column="44" selection-start-line="27" selection-start-column="44" selection-end-line="27" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/RaceSelect.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -449,17 +477,176 @@
     <entry file="file://$PROJECT_DIR$/src/tests/__snapshots__/RaceSelect.test.js.snap">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/__snapshots__/GameSearch.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/GameSearch.snapshot.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/expect-enzyme/dist/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/jest-resolve/build/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="178" column="16" selection-start-line="178" selection-start-column="16" selection-end-line="178" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/__snapshots__/GameSchedule.snapshot.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1059" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/__snapshots__/GameSearch.snapshot.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GameSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="36" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/GameSchedule.snapshot.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="9" lean-forward="true" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/RaceSelect.snapshot.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/__snapshots__/RaceSelect.snapshot.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="24" column="33" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/GameSchedule.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/RaceSelect.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/GameSearch.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/RaceDetail.snapshot.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/__snapshots__/RaceDetail.snapshot.test.js.snap">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="58" column="14" selection-start-line="58" selection-start-column="14" selection-end-line="60" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/RaceDetail.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        <state relative-caret-position="613">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RaceSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="34" column="41" lean-forward="true" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RaceDetail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        <state relative-caret-position="268">
+          <caret line="76" column="114" selection-start-line="76" selection-start-column="114" selection-end-line="76" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/GameSchedule.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

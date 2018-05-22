@@ -74,7 +74,7 @@ class RaceDetail extends Component {
                         <tr>
                             <th colSpan="4" className="tableRowAlign">
                                 <Badge color="success"
-                                    pill>{this.props.race.number}</Badge> : {this.props.race.name} : <Moment>{this.props.race.startTime}</Moment>
+                                       pill>{this.props.race.number}</Badge> : <span>{this.props.race.name}</span> : <Moment>{this.props.race.startTime}</Moment>
                             </th>
                         </tr>
                         <tr>

@@ -4,7 +4,7 @@ exports[`GameSchedule component renders gameSchedule correctly 1`] = `
 <div>
   <div>
     <table
-      className="table table-striped"
+      className="table table-sm table-striped"
     >
       <thead>
         <tr>
