@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RaceSelect component renders raceSelect correctly 1`] = `
+<div
+  className="formatCardClass2"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-sm-12"
+    >
+      <div
+        className="text-center"
+      >
+        <div
+          className="btn-group"
+        >
+          <div
+            className="btn-group"
+            role="group"
+          >
+            <button
+              className="btn btn-success"
+              id="2018-05-26_5_5"
+              onClick={[Function]}
+              type="button"
+            >
+              Race Number: 
+              5
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="formatCardClass3 row"
+  >
+    <div
+      className="col-sm-12"
+    >
+      <div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameSchedule component renders gameSchedule correctly 1`] = `
+<div>
+  <div>
+    <table
+      className="table table-striped"
+    >
+      <thead>
+        <tr>
+          <th
+            className="tableRowAlign"
+            colSpan="2"
+          >
+            Game Schedule
+          </th>
+        </tr>
+        <tr>
+          <th
+            className="tableRowAlign2"
+          >
+            Game Date
+          </th>
+          <th
+            className="tableRowAlign2"
+          >
+            Game Identifier
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          className="pointer"
+          onClick={[Function]}
+        >
+          <td
+            className="tableRowAlign2"
+          >
+            <time
+              dateTime={"2018-05-26T11:30:00.000Z"}
+            >
+              Sat May 26 2018 14:30:00 GMT+0300
+            </time>
+          </td>
+          <td
+            className="tableRowAlign2"
+          >
+            V75_2018-05-26_5_5
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div>
+    <div
+      className="formatCardClass2"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <div
+            className="text-center"
+          >
+            <div
+              className="btn-group"
+            >
+              <div
+                className="btn-group"
+                role="group"
+              >
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="formatCardClass3 row"
+      >
+        <div
+          className="col-sm-12"
+        >
+          <div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

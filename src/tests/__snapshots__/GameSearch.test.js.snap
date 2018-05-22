@@ -1,0 +1,216 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GameSearch component renders gameSearch correctly 1`] = `
+<div
+  className="formatCardClass1"
+>
+  <div
+    className="formatCardClass1 row"
+  >
+    <div
+      className="col-sm-3"
+    >
+      <div
+        className="card"
+      >
+        <img
+          alt="V75 image"
+          className="card-img-top"
+          src="http://www.swedishhorseracing.com/assets/images/racethumbs/v75.png"
+          width="25%"
+        />
+        <div
+          className="card-body"
+        >
+          <h5
+            className="card-title"
+          >
+            Game V75
+          </h5>
+          <h6
+            className="card-subtitle"
+          />
+          <p
+            className="card-text"
+          >
+            Click button to see the schedule table for game type V75
+          </p>
+          <button
+            className="btn btn-success btn btn-secondary"
+            onClick={[Function]}
+            type="button"
+          >
+            V75
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-sm-3"
+    >
+      <div
+        className="card"
+      >
+        <img
+          alt="V65 image"
+          className="card-img-top"
+          src="http://www.swedishhorseracing.com/assets/images/racethumbs/v65.png"
+          width="25%"
+        />
+        <div
+          className="card-body"
+        >
+          <h5
+            className="card-title"
+          >
+            Game V65
+          </h5>
+          <h6
+            className="card-subtitle"
+          />
+          <p
+            className="card-text"
+          >
+            Click button to see the schedule table for game type V65
+          </p>
+          <button
+            className="btn btn-success btn btn-secondary"
+            onClick={[Function]}
+            type="button"
+          >
+            V65
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-sm-3"
+    >
+      <div
+        className="card"
+      >
+        <img
+          alt="V64 image"
+          className="card-img-top"
+          src="http://www.swedishhorseracing.com/assets/images/racethumbs/v64.png"
+          width="25%"
+        />
+        <div
+          className="card-body"
+        >
+          <h5
+            className="card-title"
+          >
+            Game V64
+          </h5>
+          <h6
+            className="card-subtitle"
+          />
+          <p
+            className="card-text"
+          >
+            Click button to see the schedule table for game type V64
+          </p>
+          <button
+            className="btn btn-success btn btn-secondary"
+            onClick={[Function]}
+            type="button"
+          >
+            V64
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col-sm-3"
+    >
+      <div
+        className="card"
+      >
+        <img
+          alt="V4 image"
+          className="card-img-top"
+          src="http://www.swedishhorseracing.com/assets/images/racethumbs/v4.png"
+          width="25%"
+        />
+        <div
+          className="card-body"
+        >
+          <h5
+            className="card-title"
+          >
+            Game V4
+          </h5>
+          <h6
+            className="card-subtitle"
+          />
+          <p
+            className="card-text"
+          >
+            Click button to see the schedule table for game type V4
+          </p>
+          <button
+            className="btn btn-success btn btn-secondary"
+            onClick={[Function]}
+            type="button"
+          >
+            V4
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="formatCardClass1 row"
+  >
+    <div
+      className="col-sm-12"
+    >
+      <div>
+        <div>
+          
+        </div>
+        <div>
+          <div
+            className="formatCardClass2"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-sm-12"
+              >
+                <div
+                  className="text-center"
+                >
+                  <div
+                    className="btn-group"
+                  >
+                    <div
+                      className="btn-group"
+                      role="group"
+                    >
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="formatCardClass3 row"
+            >
+              <div
+                className="col-sm-12"
+              >
+                <div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

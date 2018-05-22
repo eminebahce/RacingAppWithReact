@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RaceDetail component renders raceDetail correctly 1`] = `
+<div>
+  <div>
+    <div
+      className="table-responsive"
+    >
+      <table
+        className="table table-sm table-striped"
+      >
+        <thead>
+          <tr>
+            <th
+              className="tableRowAlign"
+              colSpan="4"
+            >
+              <span
+                className="badge badge-success badge-pill"
+              >
+                5
+              </span>
+               : 
+              Byggnads Prostataloppet - Bronsdivisionen, Final
+               : 
+              <time
+                dateTime={"2018-05-26T11:30:00.000Z"}
+              >
+                Sat May 26 2018 14:30:00 GMT+0300
+              </time>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              Start #
+            </th>
+            <th>
+              Horse Name
+            </th>
+            <th>
+              Driver
+            </th>
+            <th>
+              Info
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              1
+            </td>
+            <td>
+              Disco Volante
+            </td>
+            <td>
+              Ulf
+               
+              Ohlsson
+            </td>
+            <td>
+              <div>
+                <button
+                  className="btn btn-info"
+                  id={undefined}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  +
+                </button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;

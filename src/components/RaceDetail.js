@@ -6,23 +6,30 @@ class RaceDetail extends Component {
     constructor(props) {
         super(props);
 
-        this.state = ({});
+        this.state = ({
+            buttonIds: []
+        });
         this.toggle = this.toggle.bind(this);
     }
 
-    toggle(id) {
+    toggle(toggledButtonId) {
         this.setState({
-            [id]: !this.state[id]
+            [toggledButtonId]: !this.state[toggledButtonId]
         });
     }
 
     componentWillReceiveProps(nextProps) {
         if (Object.keys(nextProps.race).length !== 0) {
-            nextProps.race.starts.map((start) => {
-                let buttonId = `popoverBtn${nextProps.race.id}${start.number}`;
+            let newButtonIds = [];
+            nextProps.race.starts.map((start, index) => {
+                newButtonIds[index] = `btn${nextProps.race.id}${start.number}`;
                 this.setState({
-                    [buttonId]: false
+                    [newButtonIds[index]]: false
                 });
+            });
+
+            this.setState({
+                buttonIds: newButtonIds
             });
         }
     }
@@ -31,20 +38,19 @@ class RaceDetail extends Component {
         let starts = '';
         let raceData = '';
         if (Object.keys(this.props.race).length !== 0) {
-            starts = this.props.race.starts.map((start) => {
-                let buttonId = `popoverBtn${this.props.race.id}${start.number}`;
+            starts = this.props.race.starts.map((start, index) => {
                 return (
-                    <tr>
+                    <tr key={this.state.buttonIds[index]}>
                         <td>{start.number}</td>
                         <td>{start.horse.name}</td>
                         <td>{start.driver.firstName} {start.driver.lastName}</td>
                         <td>
                             <div>
-                                <Button color="info" id={buttonId} onClick={() => this.toggle(buttonId)}>
+                                <Button color="info" id={this.state.buttonIds[index]} onClick={() => this.toggle(this.state.buttonIds[index])}>
                                     +
                                 </Button>
-                                <Popover placement="bottom" isOpen={this.state[buttonId]} target={buttonId}
-                                         toggle={() => this.toggle(buttonId)}>
+                                <Popover placement="bottom" isOpen={this.state[this.state.buttonIds[index]]} target={this.state.buttonIds[index]}
+                                         toggle={() => this.toggle(this.state.buttonIds[index])}>
                                     <PopoverHeader>Information</PopoverHeader>
                                     <PopoverBody>
                                         <div>
@@ -60,6 +66,7 @@ class RaceDetail extends Component {
                     </tr>
                 );
             });
+
             raceData = (
                 <div>
                     <Table size="sm" striped responsive>

@@ -31,7 +31,7 @@ class RaceSelect extends Component {
                 return (
                     <Button color="success" onClick={() => {
                         this.selectRace(race)
-                    }} id={race.id}>
+                    }} id={race.id} key={race.id}>
                         Race Number: {race.number}
                     </Button>
                 );
