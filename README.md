@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-**Note: Acces-Control-Allow-Origin error can be solved with Chrome Extension Allow-Control-Allow-Origin extension for chrome browser.  **
+**Note: Access-Control-Allow-Origin error can be solved with Chrome Extension Allow-Control-Allow-Origin extension for chrome browser.  **
 
 ## Available Scripts
 
